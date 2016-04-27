@@ -1,0 +1,30 @@
+[submodule "bioformats"]
+	path = bioformats
+	url = git://github.com/idr/bioformats
+[submodule "openmicroscopy"]
+	path = openmicroscopy
+	url = git://github.com/idr/openmicroscopy
+[submodule "infrastructure"]
+	path = infrastructure
+	url = git://github.com/idr/infrastructure
+[submodule "omego"]
+	path = omego
+	url = git://github.com/idr/omego
+[submodule "devspace"]
+	path = devspace
+	url = git://github.com/idr/devspace
+[submodule "vocabulary"]
+	path = vocabulary
+	url = git://github.com/idr/vocabulary
+[submodule "idr-metadata"]
+	path = idr-metadata
+	url = git://github.com/idr/idr-metadata
+[submodule "pydoop-features"]
+	path = pydoop-features
+	url = git://github.com/idr/pydoop-features
+[submodule "Mineotaur"]
+	path = Mineotaur
+	url = git://github.com/idr/Mineotaur
+[submodule "omero-features"]
+	path = omero-features
+	url = git://github.com/idr/omero-features
