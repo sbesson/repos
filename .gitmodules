@@ -31,3 +31,15 @@
 [submodule "ome-docker"]
 	path = ome-docker
 	url = git@github.com:idr/ome-docker
+[submodule "idr-notebooks"]
+	path = idr-notebooks
+	url = git://github.com/idr/idr-notebooks
+[submodule "jupyter-docker"]
+	path = jupyter-docker
+	url = git://github.com/idr/jupyter-docker
+[submodule "jupyterhub-githubauth"]
+	path = jupyterhub-githubauth
+	url = git://github.com/idr/jupyterhub-githubauth
+[submodule "celery-example"]
+	path = celery-example
+	url = git://github.com/idr/celery-example
