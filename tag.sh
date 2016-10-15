@@ -17,5 +17,5 @@ OLD=$(git tag -l | grep $PREVIOUS) && {
     # Most repositories will use the IDR- prefix
     NEW=IDR-$UPCOMING
 }
-echo git tag -s -m "$MESSAGE" $NEW
-echo git push origin $NEW
+git tag -s -m "$MESSAGE" $NEW
+git push origin $NEW
