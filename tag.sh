@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.2.0
-UPCOMING=0.2.1
-MESSAGE="Tagging $UPCOMING: demo2 version"
+PREVIOUS=0.2.1
+UPCOMING=0.3.0-rc1
+MESSAGE="Tagging $UPCOMING: demo3 testing version"
 
 
 # Usage:
