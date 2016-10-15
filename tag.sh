@@ -11,11 +11,14 @@ MESSAGE="Tagging $UPCOMING: demo3 testing version"
 # 2. Run `git submodule foreach $PWD/tag.sh`
 # 3
 
-OLD=$(git tag -l | grep $PREVIOUS) && {
-    NEW=$(echo $OLD | perl -pe "s/$PREVIOUS/$UPCOMING/")
+git remote get-url origin | grep idr-metadata && {
+  # No prefix for idr-metadata
+  OLD=$PREVIOUS
+  NEW=$UPCOMING
 } || {
-    # Most repositories will use the IDR- prefix
-    NEW=IDR-$UPCOMING
+  OLD=IDR-$PREVIOUS
+  NEW=IDR-$UPCOMING
 }
+
 git tag -s -m "$MESSAGE" $NEW
 git push origin $NEW
