@@ -46,3 +46,6 @@
 [submodule "omero-mapr"]
 	path = omero-mapr
 	url = git@github.com:idr/omero-mapr
+[submodule "idr-demo.openmicroscopy.org"]
+	path = idr-demo.openmicroscopy.org
+	url = git@github.com:idr/idr-demo.openmicroscopy.org
