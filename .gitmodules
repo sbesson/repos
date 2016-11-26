@@ -30,7 +30,7 @@
 	url = git://github.com/idr/omero-features
 [submodule "ome-docker"]
 	path = ome-docker
-	url = git@github.com:idr/ome-docker
+	url = git://github.com/idr/ome-docker
 [submodule "idr-notebooks"]
 	path = idr-notebooks
 	url = git://github.com/idr/idr-notebooks
@@ -45,10 +45,10 @@
 	url = git://github.com/idr/celery-example
 [submodule "omero-mapr"]
 	path = omero-mapr
-	url = git@github.com:idr/omero-mapr
+	url = git://github.com/idr/omero-mapr
 [submodule "idr-demo.openmicroscopy.org"]
 	path = idr-demo.openmicroscopy.org
-	url = git@github.com:idr/idr-demo.openmicroscopy.org
+	url = git://github.com/idr/idr-demo.openmicroscopy.org
 [submodule "deployment"]
 	path = deployment
 	url = git://github.com/idr/deployment
