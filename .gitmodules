@@ -49,3 +49,6 @@
 [submodule "idr-demo.openmicroscopy.org"]
 	path = idr-demo.openmicroscopy.org
 	url = git@github.com:idr/idr-demo.openmicroscopy.org
+[submodule "deployment"]
+	path = deployment
+	url = git://github.com/idr/deployment
