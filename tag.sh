@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PREVIOUS=0.2.1
-UPCOMING=0.3.0-rc1
+PREVIOUS=0.3.0-rc1
+UPCOMING=0.3.0
 MESSAGE="Tagging $UPCOMING: demo3 testing version"
 
 
@@ -20,5 +20,10 @@ git remote get-url origin | grep idr-metadata && {
   NEW=IDR-$UPCOMING
 }
 
-git tag -s -m "$MESSAGE" $NEW
-git push origin $NEW
+git rev-parse "$NEW" >/dev/null 2>&1 && {
+  echo $NEW exists
+} || {
+  echo Creating $NEW
+  git tag -s -m "$MESSAGE" $NEW
+  git push origin $NEW
+}
