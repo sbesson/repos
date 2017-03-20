@@ -28,9 +28,6 @@
 [submodule "omero-features"]
 	path = omero-features
 	url = git://github.com/idr/omero-features
-[submodule "ome-docker"]
-	path = ome-docker
-	url = git://github.com/idr/ome-docker
 [submodule "idr-notebooks"]
 	path = idr-notebooks
 	url = git://github.com/idr/idr-notebooks
