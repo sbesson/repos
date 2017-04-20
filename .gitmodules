@@ -37,9 +37,6 @@
 [submodule "jupyterhub-githubauth"]
 	path = jupyterhub-githubauth
 	url = git://github.com/idr/jupyterhub-githubauth
-[submodule "celery-example"]
-	path = celery-example
-	url = git://github.com/idr/celery-example
 [submodule "omero-mapr"]
 	path = omero-mapr
 	url = git://github.com/idr/omero-mapr
