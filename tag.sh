@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.3.3
-UPCOMING=0.3.4
-MESSAGE="Tagging $UPCOMING: demo34 production version"
+PREVIOUS=0.3.4
+UPCOMING=0.3.5
+MESSAGE="Tagging $UPCOMING: demo35 production version"
 
 # Usage:
 # 0. Update the variables above!
