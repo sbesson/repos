@@ -10,8 +10,8 @@ MESSAGE="Tagging $UPCOMING: prod37 production version"
 # 2. Run `git submodule foreach $PWD/tag.sh`
 # 3
 
-git remote get-url origin | grep idr-metadata && {
-  # No prefix for idr-metadata
+git remote get-url origin | grep -E "(idr-metadata|idr/repos)" && {
+  # No prefix for idr-metadata or the top-level
   OLD=$PREVIOUS
   NEW=$UPCOMING
 } || {
