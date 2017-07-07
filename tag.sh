@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.3.6
-UPCOMING=0.3.7
-MESSAGE="Tagging $UPCOMING: prod37 production version"
+PREVIOUS=0.3.7
+UPCOMING=0.4.0
+MESSAGE="Tagging $UPCOMING: prod40 internal version"
 
 # Usage:
 # 0. Update the variables above!
