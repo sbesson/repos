@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.3.7
-UPCOMING=0.4.0
-MESSAGE="Tagging $UPCOMING: prod40 internal version"
+PREVIOUS=0.4.0
+UPCOMING=0.4.1
+MESSAGE="Tagging $UPCOMING: prod41 cytohack version"
 
 # Usage:
 # 0. Update the variables above!
