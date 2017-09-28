@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.4.1
-UPCOMING=0.4.2
-MESSAGE="Tagging $UPCOMING: prod42 - first public 4x version"
+PREVIOUS=0.4.2
+UPCOMING=0.4.3
+MESSAGE="Tagging $UPCOMING: prod43 - public release"
 
 # Usage:
 # 0. Update the variables above!
