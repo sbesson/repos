@@ -7,9 +7,6 @@
 [submodule "infrastructure"]
 	path = infrastructure
 	url = git://github.com/idr/infrastructure
-[submodule "omego"]
-	path = omego
-	url = git://github.com/idr/omego
 [submodule "devspace"]
 	path = devspace
 	url = git://github.com/idr/devspace
