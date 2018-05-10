@@ -7,9 +7,6 @@
 [submodule "infrastructure"]
 	path = infrastructure
 	url = git://github.com/idr/infrastructure
-[submodule "devspace"]
-	path = devspace
-	url = git://github.com/idr/devspace
 [submodule "vocabulary"]
 	path = vocabulary
 	url = git://github.com/idr/vocabulary
@@ -19,9 +16,6 @@
 [submodule "pydoop-features"]
 	path = pydoop-features
 	url = git://github.com/idr/pydoop-features
-[submodule "Mineotaur"]
-	path = Mineotaur
-	url = git://github.com/idr/Mineotaur
 [submodule "omero-features"]
 	path = omero-features
 	url = git://github.com/idr/omero-features
