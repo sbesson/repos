@@ -15,15 +15,17 @@ upstream and origin are the same, you'll likely want *both*.
     cd openmicroscopy/
     git checkout upstream/metadata52
     # etc for all repos
-    git commit -a -m "Updating all repos for 0.0.6""
+
+### Bump the release number and commit changes
+
+    # edit PREVIOUS, VERSION and MESSAGE in tag.sh
+    git commit -a -m "Updating all repos for IDR x.y.z""
 
 ### Tag and push all subcomponents
 
-    # edit tag.sh to match your commit message
     git submodule foreach $PWD/tag.sh
 
 ### Tag an push the super repository
 
-    cd ..
-    git tag -s -m "Tag 0.0.6 - mid-summer version" 0.0.6
-    git push origin 0.0.6
+    git tag -s -m "IDR x.y.z - short description" x.y.z
+    git push origin x.y.z

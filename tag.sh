@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PREVIOUS=0.4.7
-UPCOMING=0.5.0
-MESSAGE="Tagging $UPCOMING: prod50 with OMERO 5.4 support"
+PREVIOUS=0.5.0
+UPCOMING=0.5.1
+MESSAGE="Tagging $UPCOMING: prod51 release with 2 new datasets"
 
 # Usage:
 # 0. Update the variables above!
